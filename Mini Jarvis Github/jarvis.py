@@ -87,7 +87,7 @@ while True:
             os.system("taskkill /f /im chrome.exe")
 
         elif "chrome" in command:
-            speak("Chrome chalu kar raha hu dekh le porn lodu")
+            speak("Chrome chalu kar raha hu dekh le ")
             os.system("start chrome")
 
         # Note pad ke liye ye 2 function hai    
@@ -120,29 +120,6 @@ while True:
             speak("Kisko message karega tere too dost bhi nahi hai")
             webbrowser.open("https://web.whatsapp.com/")
 
-        elif "super" in command and "dark" in command and "joke" in command:
-            super_dark_jokes = ["Tum rightist ho ya feer leftist , vese me to Sexist hu" , 
-                                "Bhai me ek book padha raha tha par uska main character mar gaya , uska naam bibal bata raha tha"]
-
-            super_dark_joke = random.choice(super_dark_jokes)
-            speak(super_dark_joke)
-
-        elif "dark" in command and "joke" in command:
-            dark_jokes = [
-                "Indian netaon ko chunav ke liye paise kyun nahi chahiye? Kyunki wade oxygen se bhi saste hain, aur hum dono se hi dam ghut rahe hain.",
-                "Dilli ki hawa itni saaf hai, ab PM2.5 ka swad Michelin-star dish jaisa lagta hai.",
-                "Bharat ka nyay vyavastha itni tezi se chalta hai, balatkari ko jamanat mil jati hai par peedit ko bandage bhi nahi milta.",
-                "Bharat mein sirf sansadon ke ego hi nahi, table ke neeche ka paisa bhi inflated hai.",
-                "Humein jansankhya ginne ki zarurat nahi; bas traffic mein fase logon ko gino—wohi number hai.",
-                "Bharat mein bhook ki chinta kyun? Sarkaar har chunav mein muft bhashan jo deti hai.",
-                "Jaati Bharat mein Wi-Fi jaisi hai—dikhti nahi, par signal kisko milta hai yeh wahi tay karti hai.",
-                "Monsoon prakriti ka tarika hai yeh batane ka: naliya bhi ruling party ko vote deti hain.",
-                "Bharatiya yuva ke paas itne job options hain—engineer, doctor, ya ‘No Vacancy’ sign ko ghoorna.",
-                "Bharat mein hum itne secular hain, hum devtaon ke liye ladte zyada hain, prarthana kam karte hain."
-            ]
-
-            dark_joke = random.choice(dark_jokes)
-            speak(dark_joke)
 
         elif "joke" in command:
             hindi_jokes = [
@@ -191,10 +168,6 @@ while True:
                 speak("Kuch gadbad ho gaya, dobara try kar bhai agar himmat nahi ho rahi to so ja.")
             
 
-        
-
-        elif "chutiya" in command:
-            speak("Tu sirf mere samne hi bol sakta hai lodu")
 
         elif any(word in command for word in ["stop", "exit", "end", "quit", "goodbye","chup" , "shat" , "Band"]):
             speak("Goodbye sir.")
