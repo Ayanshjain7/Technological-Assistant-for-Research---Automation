@@ -1,33 +1,36 @@
-# T.A.R.A — Technological Assistant for Research & Automation 🧠🤖
+# 🎙️ TARA - Voice Assistant in Python
 
-T.A.R.A is a voice-controlled AI assistant built using Python. Think of it as an Indian version of Jarvis, but with way more personality — sarcasm, jokes, system control, and real voice interaction.
+**TARA** (Technological Assistant for Research & Automation) is a fun and functional voice assistant built in Python. It listens to your voice commands, understands them, and performs tasks like opening apps, telling the time/date, searching Wikipedia, cracking jokes, and even throwing some light-hearted roasts!
 
-## 💡 Features
+---
 
-- 🎙️ Voice recognition (Hindi/English)
-- 📂 Open/close apps like Chrome, Notepad, Calculator
-- 🌐 Google, Wikipedia, YouTube access
-- 😆 Delivers roasts, dark jokes, and smart replies
-- ⏱️ Tells time/date in desi style
+## 🚀 Features
 
-## 🛠️ Built With
+- 🎧 Voice Recognition using `speech_recognition`
+- 🔊 Text-to-speech (TTS) via `pyttsx3`
+- 🌐 Wikipedia Search
+- 🧠 Understands Hindi/English phrases
+- 🗂️ Open/Close:
+  - Chrome
+  - Notepad
+  - Calculator
+- 😂 Random jokes and roasts
+- ⏰ Tells current time and date
+- 🌍 Opens websites like Google, YouTube, WhatsApp Web
 
-- Python
-- SpeechRecognition
-- Edge-TTS (Hindi voice)
-- Wikipedia API
-- Pygame
-- Webbrowser & OS modules
+---
 
-## 📦 Requirements
+## 🛠️ Technologies Used
 
-See `requirements.txt` for all dependencies.
+- Python 3.x
+- `speech_recognition`
+- `pyttsx3`
+- `wikipedia`
+- `webbrowser`, `os`, `datetime`, `random`
 
-## 📽️ Demo
+---
 
-*(Coming soon!)*
+## 📦 How to Run
 
-## 🤝 Let’s Connect!
-
-Open to opportunities & collaborations!  
-DM me or reach out on [LinkedIn](your-link-here).
+```bash
+pip install speechrecognition pyttsx3 wikipedia
