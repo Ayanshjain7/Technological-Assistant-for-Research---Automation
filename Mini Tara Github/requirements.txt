@@ -1,13 +1,5 @@
-speech_recognition as sr
-pygame
-os
-uuid  
-edge_tts
-asyncio
-
-datetime import datetime
-time
-webbrowser
-random
+speechrecognition
+pyttsx3
 wikipedia
-googlesearch import search
+googlesearch-python
+
